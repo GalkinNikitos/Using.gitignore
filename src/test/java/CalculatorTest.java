@@ -9,7 +9,16 @@ public class CalculatorTest {
     void additional(){
         assertEquals(2, calculator.addition(1, 1));
     }
+    @Test
     void difference(){
         assertEquals(1, calculator.subtraction(3, 2));
+    }
+    @Test
+    void composition(){
+        assertEquals(10, calculator.addition(2, 5));
+    }
+    @Test
+    void theMeaningOfThePrivate(){
+        assertEquals(4, calculator.subtraction(100, 25));
     }
 }
