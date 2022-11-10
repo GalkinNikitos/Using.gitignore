@@ -15,10 +15,10 @@ public class CalculatorTest {
     }
     @Test
     void composition(){
-        assertEquals(10, calculator.addition(2, 5));
+        assertEquals(10, calculator.multiplication(2, 5));
     }
     @Test
     void theMeaningOfThePrivate(){
-        assertEquals(4, calculator.subtraction(100, 25));
+        assertEquals(4, calculator.division(100, 25));
     }
 }
